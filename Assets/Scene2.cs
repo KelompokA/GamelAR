@@ -13,12 +13,18 @@ public class Scene2 : MonoBehaviour {
 	
 	}
     
-    void OnMouseOver()
-    {
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            Application.LoadLevel(1);
-        }
+    public void onClick(int sceneId)
+	{
+        Application.LoadLevel(sceneId);
     }
+    
+/*    public void OnPointerClick()
+    {
+        Application.LoadLevel(1);
+    }
+    
+    public void OnPointerDown()
+    {
+        Application.LoadLevel(1);
+    }   */
 }
