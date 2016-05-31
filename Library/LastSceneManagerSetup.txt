@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/AR_Test.unity
+- path: Assets/Welcome_Screen.unity
   isLoaded: 1
   isActive: 1
