@@ -18,29 +18,33 @@ public class Scene2 : MonoBehaviour {
         Application.LoadLevel(sceneId);
 	}
 
-	public int cek = 0;
-	public int cekk= 0;
+	public bool swiHT = false;
+	public bool swiAU= false;
 	public void apapun()
 	{
-		if (cek==1)
-		{		GameObject.FindGameObjectWithTag ("HowTo").transform.position = new Vector2 (0, 1000);
-		cek=0;
+		if (swiHT==false)
+		{	GameObject.FindGameObjectWithTag ("AboutUs").transform.position = new Vector2 (0, 1000);
+			swiAU = false;
+			GameObject.FindGameObjectWithTag ("HowTo").transform.position = new Vector2 (412, 127);
+			swiHT = true;
 		}
-		else if (cek==0)
-		{		GameObject.FindGameObjectWithTag ("HowTo").transform.position = new Vector2 (417, 127);
-			cek= 1;
+		else if (swiHT==true)
+		{		GameObject.FindGameObjectWithTag ("HowTo").transform.position = new Vector2 (0, 1000);
+			swiHT= false;
 		}
 	}
     
 	public void apapun1()
 	{
-		if (cekk==1)
-		{		GameObject.FindGameObjectWithTag ("AboutUs").transform.position = new Vector2 (0, 1000);
-			cekk=0;
+		if (swiAU==false)
+		{	GameObject.FindGameObjectWithTag ("HowTo").transform.position = new Vector2 (0, 1000);
+			swiHT= false;	
+			GameObject.FindGameObjectWithTag ("AboutUs").transform.position = new Vector2 (412, 127);
+			swiAU= true;
 		}
-		else if (cekk==0)
-		{		GameObject.FindGameObjectWithTag ("AboutUs").transform.position = new Vector2 (417, 127);
-			cekk= 1;
+		else if (swiAU==true)
+		{		GameObject.FindGameObjectWithTag ("AboutUs").transform.position = new Vector2 (0, 1000);
+			swiAU= false;
 		}
 	}
 /*    public void OnPointerClick()
