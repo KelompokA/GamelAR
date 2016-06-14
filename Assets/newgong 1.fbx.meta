@@ -4,7 +4,79 @@ timeCreated: 1465823649
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Circle
+    100004: Circle.001
+    100006: Circle.001_MeshPart0
+    100008: Circle.001_MeshPart1
+    100010: Circle.001_MeshPart10
+    100012: Circle.001_MeshPart2
+    100014: Circle.001_MeshPart3
+    100016: Circle.001_MeshPart4
+    100018: Circle.001_MeshPart5
+    100020: Circle.001_MeshPart6
+    100022: Circle.001_MeshPart7
+    100024: Circle.001_MeshPart8
+    100026: Circle.001_MeshPart9
+    100028: Cube
+    100030: //RootNode
+    400000: Camera
+    400002: Circle
+    400004: Circle.001
+    400006: Circle.001_MeshPart0
+    400008: Circle.001_MeshPart1
+    400010: Circle.001_MeshPart10
+    400012: Circle.001_MeshPart2
+    400014: Circle.001_MeshPart3
+    400016: Circle.001_MeshPart4
+    400018: Circle.001_MeshPart5
+    400020: Circle.001_MeshPart6
+    400022: Circle.001_MeshPart7
+    400024: Circle.001_MeshPart8
+    400026: Circle.001_MeshPart9
+    400028: Cube
+    400030: //RootNode
+    2300000: Circle
+    2300002: Circle.001_MeshPart0
+    2300004: Circle.001_MeshPart1
+    2300006: Circle.001_MeshPart10
+    2300008: Circle.001_MeshPart2
+    2300010: Circle.001_MeshPart3
+    2300012: Circle.001_MeshPart4
+    2300014: Circle.001_MeshPart5
+    2300016: Circle.001_MeshPart6
+    2300018: Circle.001_MeshPart7
+    2300020: Circle.001_MeshPart8
+    2300022: Circle.001_MeshPart9
+    2300024: Cube
+    3300000: Circle
+    3300002: Circle.001_MeshPart0
+    3300004: Circle.001_MeshPart1
+    3300006: Circle.001_MeshPart10
+    3300008: Circle.001_MeshPart2
+    3300010: Circle.001_MeshPart3
+    3300012: Circle.001_MeshPart4
+    3300014: Circle.001_MeshPart5
+    3300016: Circle.001_MeshPart6
+    3300018: Circle.001_MeshPart7
+    3300020: Circle.001_MeshPart8
+    3300022: Circle.001_MeshPart9
+    3300024: Cube
+    4300000: Cube
+    4300002: Circle.001_MeshPart0
+    4300004: Circle.001_MeshPart1
+    4300006: Circle.001_MeshPart2
+    4300008: Circle.001_MeshPart3
+    4300010: Circle.001_MeshPart4
+    4300012: Circle.001_MeshPart5
+    4300014: Circle.001_MeshPart6
+    4300016: Circle.001_MeshPart7
+    4300018: Circle.001_MeshPart8
+    4300020: Circle.001_MeshPart9
+    4300022: Circle.001_MeshPart10
+    4300024: Circle
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
